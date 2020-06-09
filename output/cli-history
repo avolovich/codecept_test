@@ -1,7 +1,0 @@
-
-
-<<< Recorded commands on Sun Jun 07 2020 01:15:03 GMT+0300 (GMT+03:00)
-I.dontSeeElement('.blabla')
-I.fillField({css: 'input[name=q][type=text]'}, 'John');
-I.pressKey('Enter')
-I.click("(//div[@class='r'])[5]/a/h3")

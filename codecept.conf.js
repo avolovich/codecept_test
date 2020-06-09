@@ -12,11 +12,16 @@ exports.config = {
       url: 'http://google.com',
       show: true,
       windowSize: '1200x900'
+    },
+    ResembleHelper : {
+      require: 'codeceptjs-resemblehelper',
+      screenshotFolder : './bebeto/',
+      baseFolder: './tests/screenshots/base/',
+      diffFolder: './tests/screenshots/diff/'
     }
   },
   include: {
-    I: './steps_file.js',
-    Loc: './locator.js'
+    I: './steps_file.js'
   },
   bootstrap: null,
   mocha: {},
