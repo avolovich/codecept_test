@@ -1,22 +1,19 @@
 const locator = require('./locator');
 const inputField = locator.searchField;
-const searchResult5=locator.searchResult5;
-const searchResult = locator.searchResult(2);
 const numberOfResultsToVerify = 5;
-console.log(searchResult);
 
 var searchStr="Modern style";
 
 Feature('search');
 
-Scenario('First Google test', (I) => {
-for (let i=1; i<=numberOfResultsToVerify; i++) {
+Scenario('Google search results test', (I) => {
+for (let i=5; i<=numberOfResultsToVerify+5; i++) {
+    
     I.amOnPage('http://google.com');
     I.fillField({css: inputField}, searchStr);
     I.pressKey('Enter');
-    pause();
-    I.click(locator.searchResult(i));
-    
+    let pageLinkLocator = locator.searchResult(i);
+    I.click(pageLinkLocator);
     I.waitForDocumentStateComplete();
 }
 });

@@ -10,10 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "codeceptjs": "^2.6.5",
+    "codeceptjs-resemblehelper": "^1.8.0",
     "puppeteer": "^3.3.0"
   },
   "dependencies": {
-    "codeceptjs-resemblehelper": "^1.9.1",
     "locators": "^2.0.2"
   }
 }

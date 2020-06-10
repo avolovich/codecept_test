@@ -10,7 +10,7 @@ module.exports = function() {
             clearInterval(interval);
             done();
           }
-        }, 10000);
+        }, 100);
       });
     }
     // Define custom steps here, use 'this' to access default methods of I.

@@ -15,9 +15,9 @@ exports.config = {
     },
     ResembleHelper : {
       require: 'codeceptjs-resemblehelper',
-      screenshotFolder : './bebeto/',
-      baseFolder: './tests/screenshots/base/',
-      diffFolder: './tests/screenshots/diff/'
+      screenshotFolder : './output/',
+      baseFolder: './base/',
+      diffFolder: './diff/'
     }
   },
   include: {
