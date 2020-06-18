@@ -5,33 +5,62 @@ const { setHeadlessWhen } = require('@codeceptjs/configure');
 setHeadlessWhen(process.env.HEADLESS);
 
 exports.config = {
-  tests: './*_test.js',
+  tests: './tests/*_test.js',
   output: './output',
   helpers: {
     Puppeteer: {
       url: 'http://google.com',
-      show: true,
+      show: false,
       windowSize: '1200x900'
     },
     ResembleHelper : {
       require: 'codeceptjs-resemblehelper',
-      screenshotFolder : './output/',
-      baseFolder: './base/',
-      diffFolder: './diff/'
+      screenshotFolder : './screenshots/output/',
+      baseFolder: './screenshots/base/',
+      diffFolder: './screenshots/diff/'
+    },
+    Mochawesome: {
+      uniqueScreenshotNames: 'true'
     }
   },
   include: {
     I: './steps_file.js'
   },
   bootstrap: null,
-  mocha: {},
+  mocha: {
+    reporterOptions: {
+      'codeceptjs-cli-reporter': {
+        "stdout": "./output/cli.log",
+        "options": {
+          "verbose": false,
+          "debug":true
+      }
+    },
+    mochawesome: {
+      "stdout": "./output/console.log",
+      "options": {
+        "reportDir": "./reports/mocha",
+        "reportFilename": "report"
+    },
+    'mocha-junit-reporter': {
+      "stdout": "./output/console.log",
+      "options": {
+        "mochaFile": "./output/result.xml"
+      },
+      "attachments": true //add screenshot for a failed test
+    }
+  }
+},
   name: 'Codecept',
   plugins: {
     retryFailedStep: {
-      enabled: true
+      enabled: false
     },
     screenshotOnFail: {
-      enabled: true
+      enabled: false
+    },
+    allure: {
     }
   }
+}
 }

@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592500446326' stop='1592500448210'>
+    <name>design_system_page:</name>
+    <title>design_system_page:</title>
+    <test-cases>
+        <test-case start='1592500446327' status='passed' stop='1592500448050'>
+            <name>Verify top and bottom part of the page @buttons @simple @pagetest</name>
+            <title>Verify top and bottom part of the page @buttons @simple @pagetest</title>
+            <labels>
+                <label name='tag' value='@buttons'/>
+                <label name='tag' value='@simple'/>
+                <label name='tag' value='@pagetest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1592500447121' status='passed' stop='1592500447125'>
+                    <name>I scroll page to top </name>
+                    <title>I scroll page to top </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500447125' status='passed' stop='1592500447433'>
+                    <name>I save screenshot "Btns_Page_Top.png", false</name>
+                    <title>I save screenshot "Btns_Page_Top.png", false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500447433' status='passed' stop='1592500447436'>
+                    <name>I scroll page to bottom </name>
+                    <title>I scroll page to bottom </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500447436' status='passed' stop='1592500447741'>
+                    <name>I save screenshot "Btns_Page_Bottom.png", false</name>
+                    <title>I save screenshot "Btns_Page_Bottom.png", false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500447741' status='passed' stop='1592500447870'>
+                    <name>I see visual diff "Btns_Page_Top.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btns_Page_Top.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='77f44aaf-4f18-4153-b6f5-687d53dd97e7-attachment.png' type='image/png' size='82888'/>
+                        <attachment title='Screenshot Image' source='7a5d78ee-25f5-4fdf-b295-f54ca25af9b2-attachment.png' type='image/png' size='82888'/>
+                        <attachment title='Diff Image' source='256c044b-3741-4a34-b082-9f37c723ccd4-attachment.png' type='image/png' size='82893'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500447870' status='passed' stop='1592500448049'>
+                    <name>I see visual diff "Btns_Page_Bottom.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btns_Page_Bottom.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='134d65ab-5055-4e07-8bc9-3b92fc0c790b-attachment.png' type='image/png' size='82170'/>
+                        <attachment title='Screenshot Image' source='e7cb53b2-ce9c-4536-b97c-4dd667974354-attachment.png' type='image/png' size='82170'/>
+                        <attachment title='Diff Image' source='4d1e6ba9-ae37-434c-8d49-32534b9f75a2-attachment.png' type='image/png' size='82175'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

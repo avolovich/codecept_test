@@ -1,4 +1,4 @@
-const locator = require('./locator');
+const locator = require('./utils/locator');
 const inputField = locator.searchField;
 const numberOfResultsToVerify = 5;
 

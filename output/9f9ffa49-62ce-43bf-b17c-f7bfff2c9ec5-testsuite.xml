@@ -1,0 +1,438 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592500434675' stop='1592500442124'>
+    <name>design_system_page:</name>
+    <title>design_system_page:</title>
+    <test-cases>
+        <test-case start='1592500434676' status='passed' stop='1592500436623'>
+            <name>Verify each button without any action @buttons @simple @element</name>
+            <title>Verify each button without any action @buttons @simple @element</title>
+            <labels>
+                <label name='tag' value='@buttons'/>
+                <label name='tag' value='@simple'/>
+                <label name='tag' value='@element'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1592500435494' status='passed' stop='1592500435500'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[1]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500435500' status='passed' stop='1592500435710'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[1]", "Btn_Plain_filled_orange_S_enabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[1]", "Btn_Plain_filled_orange_S_enabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500435710' status='passed' stop='1592500435740'>
+                    <name>I see visual diff "Btn_Plain_filled_orange_S_enabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Plain_filled_orange_S_enabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='bbf91332-1727-4cb0-957d-1735939c0d97-attachment.png' type='image/png' size='1451'/>
+                        <attachment title='Screenshot Image' source='6da18ed4-ac2c-4735-837d-b336b377b486-attachment.png' type='image/png' size='1451'/>
+                        <attachment title='Diff Image' source='0bea3cb4-e9b1-4512-9695-db79f6bb769f-attachment.png' type='image/png' size='1456'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500435740' status='passed' stop='1592500435745'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[2]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[2]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500435745' status='passed' stop='1592500435959'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[2]", "Btn_Plain_filled_orange_S_disabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[2]", "Btn_Plain_filled_orange_S_disabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500435959' status='passed' stop='1592500435975'>
+                    <name>I see visual diff "Btn_Plain_filled_orange_S_disabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Plain_filled_orange_S_disabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='50b36632-df12-4409-b220-8b5c7efac682-attachment.png' type='image/png' size='1355'/>
+                        <attachment title='Screenshot Image' source='d7ee8091-88b5-4358-8d4a-3c55b0f927a5-attachment.png' type='image/png' size='1355'/>
+                        <attachment title='Diff Image' source='cd528a34-0172-46e4-9ded-7cd31d141c1b-attachment.png' type='image/png' size='1360'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500435975' status='passed' stop='1592500435978'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[3]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[3]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500435979' status='passed' stop='1592500436175'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[3]", "Btn_Plain_filled_orange_M_enabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[3]", "Btn_Plain_filled_orange_M_enabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500436175' status='passed' stop='1592500436185'>
+                    <name>I see visual diff "Btn_Plain_filled_orange_M_enabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Plain_filled_orange_M_enabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='3183af99-4ce8-4168-8adf-6a6799dfef86-attachment.png' type='image/png' size='1512'/>
+                        <attachment title='Screenshot Image' source='e2565fcf-b50f-43ea-aa77-cae78c101f43-attachment.png' type='image/png' size='1512'/>
+                        <attachment title='Diff Image' source='ba6c9624-e058-4549-8369-e86ff3ef99b4-attachment.png' type='image/png' size='1517'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500436185' status='passed' stop='1592500436188'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[4]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[4]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500436188' status='passed' stop='1592500436397'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[4]", "Btn_Plain_filled_orange_M_disabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[4]", "Btn_Plain_filled_orange_M_disabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500436397' status='passed' stop='1592500436411'>
+                    <name>I see visual diff "Btn_Plain_filled_orange_M_disabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Plain_filled_orange_M_disabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='812dcd6e-e443-44ce-8366-c0e29b2c176b-attachment.png' type='image/png' size='1508'/>
+                        <attachment title='Screenshot Image' source='5f16396f-9f16-402b-9ccf-06c86dcc323a-attachment.png' type='image/png' size='1508'/>
+                        <attachment title='Diff Image' source='13d0fbc0-a468-4fa5-adb3-e05383f284f0-attachment.png' type='image/png' size='1513'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500436411' status='passed' stop='1592500436416'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[5]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[5]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500436416' status='passed' stop='1592500436610'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[5]", "Btn_Plain_filled_orange_L_enabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[5]", "Btn_Plain_filled_orange_L_enabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500436610' status='passed' stop='1592500436623'>
+                    <name>I see visual diff "Btn_Plain_filled_orange_L_enabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Plain_filled_orange_L_enabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='1d091dc4-c95c-4e64-862d-ee1812620aa3-attachment.png' type='image/png' size='1528'/>
+                        <attachment title='Screenshot Image' source='a34020e8-a9df-4fde-80e4-6ff3bd25dbbf-attachment.png' type='image/png' size='1528'/>
+                        <attachment title='Diff Image' source='79fe28e3-9fdc-4abc-8a58-a799460b9bae-attachment.png' type='image/png' size='1533'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592500436798' status='passed' stop='1592500439296'>
+            <name>Verify each button on mouse over @buttons @action @hover @element</name>
+            <title>Verify each button on mouse over @buttons @action @hover @element</title>
+            <labels>
+                <label name='tag' value='@buttons'/>
+                <label name='tag' value='@action'/>
+                <label name='tag' value='@hover'/>
+                <label name='tag' value='@element'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1592500437569' status='passed' stop='1592500437575'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[1]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500437576' status='passed' stop='1592500437679'>
+                    <name>I move cursor to "(//div[@id='buttons']//button)[1]", 5, 5</name>
+                    <title>I move cursor to "(//div[@id='buttons']//button)[1]", 5, 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500437679' status='passed' stop='1592500437914'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[1]", "Btn_Hover_filled_orange_S_enabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[1]", "Btn_Hover_filled_orange_S_enabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500437914' status='passed' stop='1592500437924'>
+                    <name>I see visual diff "Btn_Hover_filled_orange_S_enabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Hover_filled_orange_S_enabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='4aafcce5-6960-492a-bde1-7bb665d09750-attachment.png' type='image/png' size='1471'/>
+                        <attachment title='Screenshot Image' source='637f4b82-09bd-4e75-95ef-86800d569d3a-attachment.png' type='image/png' size='1471'/>
+                        <attachment title='Diff Image' source='931ee9d6-7d6f-495c-93f2-d851d2e2b4d1-attachment.png' type='image/png' size='1476'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500437924' status='passed' stop='1592500437928'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[2]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[2]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500437928' status='passed' stop='1592500438030'>
+                    <name>I move cursor to "(//div[@id='buttons']//button)[2]", 5, 5</name>
+                    <title>I move cursor to "(//div[@id='buttons']//button)[2]", 5, 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500438031' status='passed' stop='1592500438248'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[2]", "Btn_Hover_filled_orange_S_disabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[2]", "Btn_Hover_filled_orange_S_disabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500438248' status='passed' stop='1592500438262'>
+                    <name>I see visual diff "Btn_Hover_filled_orange_S_disabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Hover_filled_orange_S_disabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='d273048b-4a8d-48ce-abfc-f1e2fc26c590-attachment.png' type='image/png' size='1360'/>
+                        <attachment title='Screenshot Image' source='ac7bc299-f87f-4dcd-93f4-4c05e9934f7b-attachment.png' type='image/png' size='1360'/>
+                        <attachment title='Diff Image' source='57c2049c-90c0-4cde-a269-63dea9732eeb-attachment.png' type='image/png' size='1365'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500438262' status='passed' stop='1592500438266'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[3]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[3]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500438266' status='passed' stop='1592500438369'>
+                    <name>I move cursor to "(//div[@id='buttons']//button)[3]", 5, 5</name>
+                    <title>I move cursor to "(//div[@id='buttons']//button)[3]", 5, 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500438369' status='passed' stop='1592500438592'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[3]", "Btn_Hover_filled_orange_M_enabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[3]", "Btn_Hover_filled_orange_M_enabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500438592' status='passed' stop='1592500438601'>
+                    <name>I see visual diff "Btn_Hover_filled_orange_M_enabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Hover_filled_orange_M_enabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='355c5a84-c580-406f-a9d3-2c91f0801241-attachment.png' type='image/png' size='1527'/>
+                        <attachment title='Screenshot Image' source='49c5623d-9216-440d-8cde-7df0ba85e15a-attachment.png' type='image/png' size='1527'/>
+                        <attachment title='Diff Image' source='97dcae7d-ebe2-4a28-8a70-a91da71e5ec1-attachment.png' type='image/png' size='1532'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500438601' status='passed' stop='1592500438604'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[4]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[4]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500438605' status='passed' stop='1592500438708'>
+                    <name>I move cursor to "(//div[@id='buttons']//button)[4]", 5, 5</name>
+                    <title>I move cursor to "(//div[@id='buttons']//button)[4]", 5, 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500438708' status='passed' stop='1592500438926'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[4]", "Btn_Hover_filled_orange_M_disabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[4]", "Btn_Hover_filled_orange_M_disabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500438927' status='passed' stop='1592500438940'>
+                    <name>I see visual diff "Btn_Hover_filled_orange_M_disabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Hover_filled_orange_M_disabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='21e6e318-cff9-4fb6-aa19-14d7bd2e8e9c-attachment.png' type='image/png' size='1508'/>
+                        <attachment title='Screenshot Image' source='4fec3cd3-585f-4bbf-8c64-fc21662fea2a-attachment.png' type='image/png' size='1508'/>
+                        <attachment title='Diff Image' source='e52d5c8b-fc4e-47f3-b97f-6ab583494352-attachment.png' type='image/png' size='1513'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500438940' status='passed' stop='1592500438946'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[5]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[5]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500438946' status='passed' stop='1592500439050'>
+                    <name>I move cursor to "(//div[@id='buttons']//button)[5]", 5, 5</name>
+                    <title>I move cursor to "(//div[@id='buttons']//button)[5]", 5, 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500439050' status='passed' stop='1592500439283'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[5]", "Btn_Hover_filled_orange_L_enabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[5]", "Btn_Hover_filled_orange_L_enabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500439284' status='passed' stop='1592500439296'>
+                    <name>I see visual diff "Btn_Hover_filled_orange_L_enabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Hover_filled_orange_L_enabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='404540e3-9b2b-48be-894d-9fcbb83716ad-attachment.png' type='image/png' size='1530'/>
+                        <attachment title='Screenshot Image' source='019730ff-66b7-41de-b631-00c792f642f0-attachment.png' type='image/png' size='1530'/>
+                        <attachment title='Diff Image' source='863fd363-b3fc-4006-b68d-04768410a275-attachment.png' type='image/png' size='1535'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1592500439455' status='passed' stop='1592500441973'>
+            <name>Verify each button on click @buttons @action @click @element</name>
+            <title>Verify each button on click @buttons @action @click @element</title>
+            <labels>
+                <label name='tag' value='@buttons'/>
+                <label name='tag' value='@action'/>
+                <label name='tag' value='@click'/>
+                <label name='tag' value='@element'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1592500440222' status='passed' stop='1592500440227'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[1]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500440227' status='passed' stop='1592500440332'>
+                    <name>I click "(//div[@id='buttons']//button)[1]"</name>
+                    <title>I click "(//div[@id='buttons']//button)[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500440333' status='passed' stop='1592500440559'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[1]", "Btn_Click_filled_orange_S_enabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[1]", "Btn_Click_filled_orange_S_enabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500440559' status='passed' stop='1592500440567'>
+                    <name>I see visual diff "Btn_Click_filled_orange_S_enabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Click_filled_orange_S_enabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='d90fe379-4021-44ad-abd3-62f0d0a04518-attachment.png' type='image/png' size='1466'/>
+                        <attachment title='Screenshot Image' source='0dda3f08-dc8d-425a-94e2-2e7340b2521e-attachment.png' type='image/png' size='1466'/>
+                        <attachment title='Diff Image' source='6fcb4e96-cc6f-44b7-80e1-47e940f52572-attachment.png' type='image/png' size='1471'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500440568' status='passed' stop='1592500440571'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[2]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[2]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500440572' status='passed' stop='1592500440676'>
+                    <name>I click "(//div[@id='buttons']//button)[2]"</name>
+                    <title>I click "(//div[@id='buttons']//button)[2]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500440676' status='passed' stop='1592500440896'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[2]", "Btn_Click_filled_orange_S_disabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[2]", "Btn_Click_filled_orange_S_disabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500440896' status='passed' stop='1592500440904'>
+                    <name>I see visual diff "Btn_Click_filled_orange_S_disabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Click_filled_orange_S_disabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='b2fe2f29-261b-4669-8f35-58f01f386b8a-attachment.png' type='image/png' size='1360'/>
+                        <attachment title='Screenshot Image' source='7337c2b1-62de-4f52-b3b8-14ae932d36e1-attachment.png' type='image/png' size='1360'/>
+                        <attachment title='Diff Image' source='4bdeecb1-2737-4156-89be-1615ab99a593-attachment.png' type='image/png' size='1365'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500440905' status='passed' stop='1592500440908'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[3]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[3]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500440908' status='passed' stop='1592500441013'>
+                    <name>I click "(//div[@id='buttons']//button)[3]"</name>
+                    <title>I click "(//div[@id='buttons']//button)[3]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500441013' status='passed' stop='1592500441249'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[3]", "Btn_Click_filled_orange_M_enabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[3]", "Btn_Click_filled_orange_M_enabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500441249' status='passed' stop='1592500441263'>
+                    <name>I see visual diff "Btn_Click_filled_orange_M_enabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Click_filled_orange_M_enabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='2540d679-6887-4d6e-81f0-d3827a81ed61-attachment.png' type='image/png' size='1524'/>
+                        <attachment title='Screenshot Image' source='4136c1fd-906b-43f3-9fbd-90c9b4ab07e5-attachment.png' type='image/png' size='1524'/>
+                        <attachment title='Diff Image' source='f5415da3-e005-462b-bc8d-5dcd86959ff9-attachment.png' type='image/png' size='1529'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500441263' status='passed' stop='1592500441266'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[4]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[4]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500441267' status='passed' stop='1592500441370'>
+                    <name>I click "(//div[@id='buttons']//button)[4]"</name>
+                    <title>I click "(//div[@id='buttons']//button)[4]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500441370' status='passed' stop='1592500441592'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[4]", "Btn_Click_filled_orange_M_disabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[4]", "Btn_Click_filled_orange_M_disabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500441592' status='passed' stop='1592500441606'>
+                    <name>I see visual diff "Btn_Click_filled_orange_M_disabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Click_filled_orange_M_disabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='ac781917-543b-4278-afb3-390e1f35d4fc-attachment.png' type='image/png' size='1508'/>
+                        <attachment title='Screenshot Image' source='505cff3e-fc88-4d59-b29f-ba332ca7c6f2-attachment.png' type='image/png' size='1508'/>
+                        <attachment title='Diff Image' source='476a7ecb-ae53-4324-8513-bf3aa5061e8b-attachment.png' type='image/png' size='1513'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1592500441606' status='passed' stop='1592500441611'>
+                    <name>I grab text from "(//div[@id='buttons']//button)[5]"</name>
+                    <title>I grab text from "(//div[@id='buttons']//button)[5]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500441611' status='passed' stop='1592500441717'>
+                    <name>I click "(//div[@id='buttons']//button)[5]"</name>
+                    <title>I click "(//div[@id='buttons']//button)[5]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500441717' status='passed' stop='1592500441950'>
+                    <name>I screenshot element "(//div[@id='buttons']//button)[5]", "Btn_Click_filled_orange_L_enabled"</name>
+                    <title>I screenshot element "(//div[@id='buttons']//button)[5]", "Btn_Click_filled_orange_L_enabled"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592500441950' status='passed' stop='1592500441973'>
+                    <name>I see visual diff "Btn_Click_filled_orange_L_enabled.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btn_Click_filled_orange_L_enabled.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='9e12bd9e-3d2e-4029-8fbb-3008061c9fdc-attachment.png' type='image/png' size='1547'/>
+                        <attachment title='Screenshot Image' source='475b6143-9831-4718-9c4c-88403cb27fe3-attachment.png' type='image/png' size='1547'/>
+                        <attachment title='Diff Image' source='ca483a77-d410-479b-aa46-9b28d88516bf-attachment.png' type='image/png' size='1552'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

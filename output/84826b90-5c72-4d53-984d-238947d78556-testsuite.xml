@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592501637675' stop='1592501638927'>
+    <name>design_system_page:</name>
+    <title>design_system_page:</title>
+    <test-cases>
+        <test-case start='1592501637681' status='passed' stop='1592501638759'>
+            <name>Verify block of buttons @buttons @simple @block</name>
+            <title>Verify block of buttons @buttons @simple @block</title>
+            <labels>
+                <label name='tag' value='@buttons'/>
+                <label name='tag' value='@simple'/>
+                <label name='tag' value='@block'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1592501638495' status='passed' stop='1592501638719'>
+                    <name>I screenshot element "#testblock", "Btns_Block"</name>
+                    <title>I screenshot element "#testblock", "Btns_Block"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592501638719' status='passed' stop='1592501638758'>
+                    <name>I see visual diff "Btns_Block.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btns_Block.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='ab10c362-9787-464f-b511-03317659afab-attachment.png' type='image/png' size='13338'/>
+                        <attachment title='Screenshot Image' source='56cde4c6-c1c7-4984-9150-56bdff659da8-attachment.png' type='image/png' size='13338'/>
+                        <attachment title='Diff Image' source='397412cc-d3b6-4bef-98bc-558bc1277d95-attachment.png' type='image/png' size='13343'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
