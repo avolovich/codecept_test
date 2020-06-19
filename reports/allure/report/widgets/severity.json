@@ -1,0 +1,51 @@
+[ {
+  "uid" : "93fe2d40790db268",
+  "name" : "Verify block of buttons @buttons @simple @block",
+  "time" : {
+    "start" : 1592576528020,
+    "stop" : 1592576529122,
+    "duration" : 1102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2654a3642793380b",
+  "name" : "Verify each button on click @buttons @action @click @element",
+  "time" : {
+    "start" : 1592576520173,
+    "stop" : 1592576526024,
+    "duration" : 5851
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf2e1b0a85068ecf",
+  "name" : "Verify each button without any action @buttons @plain @element",
+  "time" : {
+    "start" : 1592576507420,
+    "stop" : 1592576513225,
+    "duration" : 5805
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3871b8e3ac42fadf",
+  "name" : "Verify each button on mouse over @buttons @action @hover @element",
+  "time" : {
+    "start" : 1592576513730,
+    "stop" : 1592576519606,
+    "duration" : 5876
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "580e116ac6a89720",
+  "name" : "Verify top and bottom part of the page @buttons @simple @pagetest",
+  "time" : {
+    "start" : 1592576530760,
+    "stop" : 1592576537906,
+    "duration" : 7146
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

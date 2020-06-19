@@ -5,7 +5,7 @@ const { setHeadlessWhen } = require('@codeceptjs/configure');
 setHeadlessWhen(process.env.HEADLESS);
 
 exports.config = {
-  tests: './tests/*_test.js',
+  tests: './tests/*.js',
   output: './output',
   helpers: {
     Puppeteer: {

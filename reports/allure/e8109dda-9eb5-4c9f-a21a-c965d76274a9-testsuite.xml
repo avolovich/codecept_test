@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592576530754' stop='1592576538376'>
+    <name>design_system_page:</name>
+    <title>design_system_page:</title>
+    <test-cases>
+        <test-case start='1592576530760' status='failed' stop='1592576537906'>
+            <name>Verify top and bottom part of the page @buttons @simple @pagetest</name>
+            <title>Verify top and bottom part of the page @buttons @simple @pagetest</title>
+            <labels>
+                <label name='testType' value='screenshotDiff'/>
+                <label name='tag' value='@buttons'/>
+                <label name='tag' value='@simple'/>
+                <label name='tag' value='@pagetest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1592576531584' status='passed' stop='1592576531587'>
+                    <name>I scroll page to top </name>
+                    <title>I scroll page to top </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592576531587' status='passed' stop='1592576531893'>
+                    <name>I save screenshot "Btns_Page_Top.png", false</name>
+                    <title>I save screenshot "Btns_Page_Top.png", false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592576531893' status='passed' stop='1592576531896'>
+                    <name>I scroll page to bottom </name>
+                    <title>I scroll page to bottom </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592576531896' status='passed' stop='1592576532209'>
+                    <name>I save screenshot "Btns_Page_Bottom.png", false</name>
+                    <title>I save screenshot "Btns_Page_Bottom.png", false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1592576532209' status='failed' stop='1592576537906'>
+                    <name>I see visual diff "Btns_Page_Top.png", {"prepareBaseImage":false,"tolerance":0}</name>
+                    <title>I see visual diff "Btns_Page_Top.png", {"prepareBaseImage":false,"tolerance":0}</title>
+                    <attachments>
+                        <attachment title='Base Image' source='581cf4e4-593b-4e03-addb-2a677d584085-attachment.png' type='image/png' size='82888'/>
+                        <attachment title='Screenshot Image' source='b0568ddc-b190-4e9e-9d12-3c0dfbcbd234-attachment.png' type='image/png' size='83597'/>
+                        <attachment title='Diff Image' source='34b917b3-0fbe-4804-81e3-7214f9db4b30-attachment.png' type='image/png' size='82998'/>
+                        <attachment title='Base Image' source='f0e67931-809c-4d5f-a06c-8c8be7cc73e2-attachment.png' type='image/png' size='82888'/>
+                        <attachment title='Screenshot Image' source='82dfe95b-7772-46e0-863b-8a872004805f-attachment.png' type='image/png' size='83597'/>
+                        <attachment title='Diff Image' source='4815cfc6-5cf6-4589-9fcc-1e252e6ba020-attachment.png' type='image/png' size='82998'/>
+                        <attachment title='Base Image' source='48d194f2-0d98-46d0-8b16-865f7c2ffab3-attachment.png' type='image/png' size='82888'/>
+                        <attachment title='Screenshot Image' source='39f93939-28b1-4679-bb0c-5de5ee75027c-attachment.png' type='image/png' size='83597'/>
+                        <attachment title='Diff Image' source='87f88df2-a570-4a39-8830-d4daab259351-attachment.png' type='image/png' size='82998'/>
+                        <attachment title='Base Image' source='73f27850-1cb5-4285-a8a4-89072ddb0b15-attachment.png' type='image/png' size='82888'/>
+                        <attachment title='Screenshot Image' source='28266b8a-b3ae-4166-a06e-5a8efdb1ff90-attachment.png' type='image/png' size='83597'/>
+                        <attachment title='Diff Image' source='6fe6c183-2229-441d-8765-3241a5e40b87-attachment.png' type='image/png' size='82998'/>
+                        <attachment title='Base Image' source='a8225823-a68a-4d86-af06-b9fdc449f03a-attachment.png' type='image/png' size='82888'/>
+                        <attachment title='Screenshot Image' source='4413c9db-63c6-4c77-b377-be75f1c211b9-attachment.png' type='image/png' size='83597'/>
+                        <attachment title='Diff Image' source='7eb8cd2e-2085-41ab-88d6-1ccd1772ab78-attachment.png' type='image/png' size='82998'/>
+                        <attachment title='Base Image' source='0689b8b9-2703-48fd-be43-f71857388142-attachment.png' type='image/png' size='82888'/>
+                        <attachment title='Screenshot Image' source='86db6468-f755-4c43-8d24-e99fca227eef-attachment.png' type='image/png' size='83597'/>
+                        <attachment title='Diff Image' source='9304d3fc-b5e9-4c0d-a062-92f3dace6433-attachment.png' type='image/png' size='82998'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='38abffdd-5d2e-4875-a588-7172510a38e2-attachment.png' type='image/png' size='82353'/>
+            </attachments>
+            <failure>
+                <message>MissMatch Percentage 0.02</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: MissMatch Percentage 0.02
+                    at ResembleHelper._assertVisualDiff (C:\src\codecept_test\node_modules\codeceptjs-resemblehelper\index.js:300:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

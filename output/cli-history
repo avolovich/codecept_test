@@ -1,0 +1,22 @@
+
+
+<<< Recorded commands on Fri Jun 19 2020 20:14:23 GMT+0300 (Eastern European Summer Time)
+I.amOnPage('http://localhost:8888/v3/comp/re-ja-ui-demo-page?dataSource=http://localhost:8888/re-ja-ui-demo-page-backend-data.json')
+I.moveCursorTo("(//div[@id='buttons']//button)[2]")
+I.moveCursorTo("(//div[@id='buttons']//button)[1]")
+I.moveCursorTo("(//div[@id='buttons']//button)[2]")
+I.moveCursorTo("(//div[@id='buttons']//button)[2]")
+I.moveCursorTo("(//div[@id='buttons']//button)[3]")
+I.click("(//div[@id='buttons']//button)[3]")
+I.click("(//div[@id='buttons']//button)[5]")
+I.click("filled orange S enabled")
+I.seeElement("(//div[@id='buttons']//button)[2]")
+I.seeElement("(//div[@id='buttons']//button)[1]")
+I.grabElementBoundingRect("(//div[@id='buttons']//button)[2]")
+I.grabElementBoundingRect("(//div[@id='buttons']//button)[2]").x
+I.screenshotElement("(//div[@id='buttons']//button)[1]")
+I.screenshotElement("(//div[@id='buttons']//button)[1]","somename.png")
+I.screenshotElement("(//div[@id='buttons']//button)[2]","somename.png")
+I.screenshotElement("(//div[@id='buttons']//button)[3]","somename.png")
+I.screenshotElement("#testblock","block.png")
+I.screenshotElement("#testblock","block.png")

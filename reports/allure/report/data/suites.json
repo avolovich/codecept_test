@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "design_system_page:",
+    "children" : [ {
+      "name" : "Verify each button without any action @buttons @plain @element",
+      "uid" : "cf2e1b0a85068ecf",
+      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592576507420,
+        "stop" : 1592576513225,
+        "duration" : 5805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify each button on mouse over @buttons @action @hover @element",
+      "uid" : "3871b8e3ac42fadf",
+      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592576513730,
+        "stop" : 1592576519606,
+        "duration" : 5876
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify each button on click @buttons @action @click @element",
+      "uid" : "2654a3642793380b",
+      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592576520173,
+        "stop" : 1592576526024,
+        "duration" : 5851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify block of buttons @buttons @simple @block",
+      "uid" : "93fe2d40790db268",
+      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592576528020,
+        "stop" : 1592576529122,
+        "duration" : 1102
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify top and bottom part of the page @buttons @simple @pagetest",
+      "uid" : "580e116ac6a89720",
+      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592576530760,
+        "stop" : 1592576537906,
+        "duration" : 7146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d8a95d1b67edb09e2226e3792172c587"
+  } ]
+}

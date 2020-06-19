@@ -1,0 +1,236 @@
+{
+  "uid" : "cf2e1b0a85068ecf",
+  "name" : "Verify each button without any action @buttons @plain @element",
+  "fullName" : "design_system_page:.Verify each button without any action @buttons @plain @element",
+  "historyId" : "cbcda7208c681418bf5a97e7a8532fea",
+  "time" : {
+    "start" : 1592576507420,
+    "stop" : 1592576513225,
+    "duration" : 5805
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "MissMatch Percentage 0.23",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: MissMatch Percentage 0.23\n                    at ResembleHelper._assertVisualDiff (C:\\src\\codecept_test\\node_modules\\codeceptjs-resemblehelper\\index.js:300:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "MissMatch Percentage 0.23",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: MissMatch Percentage 0.23\n                    at ResembleHelper._assertVisualDiff (C:\\src\\codecept_test\\node_modules\\codeceptjs-resemblehelper\\index.js:300:5)",
+    "steps" : [ {
+      "name" : "I grab text from \"(//div[@id='buttons']//button)[1]\"",
+      "time" : {
+        "start" : 1592576508256,
+        "stop" : 1592576508263,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "I screenshot element \"(//div[@id='buttons']//button)[1]\", \"Btn_Plain_filled_orange_S_enabled\"",
+      "time" : {
+        "start" : 1592576508264,
+        "stop" : 1592576508478,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "I see visual diff \"Btn_Plain_filled_orange_S_enabled.png\", {\"prepareBaseImage\":false,\"tolerance\":0}",
+      "time" : {
+        "start" : 1592576508479,
+        "stop" : 1592576513225,
+        "duration" : 4746
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError [ERR_ASSERTION]: MissMatch Percentage 0.23\n                    at ResembleHelper._assertVisualDiff (C:\\src\\codecept_test\\node_modules\\codeceptjs-resemblehelper\\index.js:300:5)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "354298dd73052b06",
+        "name" : "Base Image",
+        "source" : "354298dd73052b06.png",
+        "type" : "image/png",
+        "size" : 1451
+      }, {
+        "uid" : "1cd71b97b56a258f",
+        "name" : "Screenshot Image",
+        "source" : "1cd71b97b56a258f.png",
+        "type" : "image/png",
+        "size" : 1481
+      }, {
+        "uid" : "4de0bce64f36cbb6",
+        "name" : "Diff Image",
+        "source" : "4de0bce64f36cbb6.png",
+        "type" : "image/png",
+        "size" : 1465
+      }, {
+        "uid" : "3749a1c924746359",
+        "name" : "Base Image",
+        "source" : "3749a1c924746359.png",
+        "type" : "image/png",
+        "size" : 1451
+      }, {
+        "uid" : "13bf0d05328475b2",
+        "name" : "Screenshot Image",
+        "source" : "13bf0d05328475b2.png",
+        "type" : "image/png",
+        "size" : 1481
+      }, {
+        "uid" : "11ef178feae81822",
+        "name" : "Diff Image",
+        "source" : "11ef178feae81822.png",
+        "type" : "image/png",
+        "size" : 1465
+      }, {
+        "uid" : "fa708f969cd49c8a",
+        "name" : "Base Image",
+        "source" : "fa708f969cd49c8a.png",
+        "type" : "image/png",
+        "size" : 1451
+      }, {
+        "uid" : "134bc023d3050c06",
+        "name" : "Screenshot Image",
+        "source" : "134bc023d3050c06.png",
+        "type" : "image/png",
+        "size" : 1481
+      }, {
+        "uid" : "8aa3997801b8cb57",
+        "name" : "Diff Image",
+        "source" : "8aa3997801b8cb57.png",
+        "type" : "image/png",
+        "size" : 1465
+      }, {
+        "uid" : "1dfba74526a3b161",
+        "name" : "Base Image",
+        "source" : "1dfba74526a3b161.png",
+        "type" : "image/png",
+        "size" : 1451
+      }, {
+        "uid" : "b0ee59bd48941d50",
+        "name" : "Screenshot Image",
+        "source" : "b0ee59bd48941d50.png",
+        "type" : "image/png",
+        "size" : 1481
+      }, {
+        "uid" : "338e0cb75a687ef6",
+        "name" : "Diff Image",
+        "source" : "338e0cb75a687ef6.png",
+        "type" : "image/png",
+        "size" : 1465
+      }, {
+        "uid" : "fdc003c7e4ec299d",
+        "name" : "Base Image",
+        "source" : "fdc003c7e4ec299d.png",
+        "type" : "image/png",
+        "size" : 1451
+      }, {
+        "uid" : "16626904849a4884",
+        "name" : "Screenshot Image",
+        "source" : "16626904849a4884.png",
+        "type" : "image/png",
+        "size" : 1481
+      }, {
+        "uid" : "6a9f42e5f528a0a4",
+        "name" : "Diff Image",
+        "source" : "6a9f42e5f528a0a4.png",
+        "type" : "image/png",
+        "size" : 1465
+      }, {
+        "uid" : "2fc6f442158dc9ec",
+        "name" : "Base Image",
+        "source" : "2fc6f442158dc9ec.png",
+        "type" : "image/png",
+        "size" : 1451
+      }, {
+        "uid" : "d45341c4996693ee",
+        "name" : "Screenshot Image",
+        "source" : "d45341c4996693ee.png",
+        "type" : "image/png",
+        "size" : 1481
+      }, {
+        "uid" : "16e4fbf8534a2660",
+        "name" : "Diff Image",
+        "source" : "16e4fbf8534a2660.png",
+        "type" : "image/png",
+        "size" : 1465
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 18,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8b89f1b0c30279ad",
+      "name" : "Last Seen Screenshot",
+      "source" : "8b89f1b0c30279ad.png",
+      "type" : "image/png",
+      "size" : 83597
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@buttons"
+  }, {
+    "name" : "tag",
+    "value" : "@element"
+  }, {
+    "name" : "tag",
+    "value" : "@plain"
+  }, {
+    "name" : "testType",
+    "value" : "screenshotDiff"
+  }, {
+    "name" : "suite",
+    "value" : "design_system_page:"
+  }, {
+    "name" : "testClass",
+    "value" : "design_system_page:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify each button without any action @buttons @plain @element"
+  }, {
+    "name" : "package",
+    "value" : "design_system_page:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@element", "@plain", "@buttons" ]
+  },
+  "source" : "cf2e1b0a85068ecf.json",
+  "parameterValues" : [ ]
+}
