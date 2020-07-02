@@ -1,4 +1,7 @@
-const locator = require('./locator.js')
+const locator = require('./locator.js');
+let g = require('codeceptjs');
+const { helper } = require('codeceptjs');
+
 
 module.exports = {
     prepareScreenshotFlag: false,
@@ -19,9 +22,24 @@ module.exports = {
          I.seeVisualDiff(screenshotName+".png", {prepareBaseImage: false, tolerance: 0});
    },
 
+   
+
    getLocator: async function(number) {
      return "("+locator.buttons+")["+number+"]"; console.log("Preparing locator:"+btn);
-   }
+   },
+
+
+  getCurrentBrowser: function () {
+    let browser = "unknown"; // Will show this prefix if it will could not find browser parameter in config (will need to add a condition for a new helper)
+    if (typeof g.config.get().helpers.WebDriver != 'undefined') {             // WebdriverIO
+      browser = "WDIO_"+g.config.get().helpers.WebDriver.browser;
+    } else if (typeof g.config.get().helpers.Puppeteer != 'undefined') {        // Puppeteer
+      browser = "Puppeteer_Chrome_";
+      let headless = (g.config.get().helpers.Puppeteer.show) ? "" : "headless"      
+      browser = browser + headless;
+    }
+    return browser;
+  }
    };
 
 

@@ -1,50 +1,60 @@
 [ {
-  "uid" : "93fe2d40790db268",
+  "uid" : "17b1891bfaf9c557",
+  "name" : "Verify whole page @buttons @simple @wholepage @page",
+  "time" : {
+    "start" : 1593696019536,
+    "stop" : 1593696020962,
+    "duration" : 1426
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bea4bd51d560ade",
+  "name" : "Verify top and bottom part of the page @buttons @simple @pagetest @page",
+  "time" : {
+    "start" : 1593696017707,
+    "stop" : 1593696019380,
+    "duration" : 1673
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "131c703ebcf155d1",
+  "name" : "Verify each button without any action @buttons @plain @element",
+  "time" : {
+    "start" : 1593696012474,
+    "stop" : 1593696013554,
+    "duration" : 1080
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9b4ea41f087d709",
   "name" : "Verify block of buttons @buttons @simple @block",
   "time" : {
-    "start" : 1592576528020,
-    "stop" : 1592576529122,
-    "duration" : 1102
+    "start" : 1593696016463,
+    "stop" : 1593696017543,
+    "duration" : 1080
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2654a3642793380b",
-  "name" : "Verify each button on click @buttons @action @click @element",
-  "time" : {
-    "start" : 1592576520173,
-    "stop" : 1592576526024,
-    "duration" : 5851
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf2e1b0a85068ecf",
-  "name" : "Verify each button without any action @buttons @plain @element",
-  "time" : {
-    "start" : 1592576507420,
-    "stop" : 1592576513225,
-    "duration" : 5805
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3871b8e3ac42fadf",
+  "uid" : "c8c225fce028ee4e",
   "name" : "Verify each button on mouse over @buttons @action @hover @element",
   "time" : {
-    "start" : 1592576513730,
-    "stop" : 1592576519606,
-    "duration" : 5876
+    "start" : 1593696013772,
+    "stop" : 1593696014953,
+    "duration" : 1181
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "580e116ac6a89720",
-  "name" : "Verify top and bottom part of the page @buttons @simple @pagetest",
+  "uid" : "961c063d0c444e45",
+  "name" : "Verify each button on click @buttons @action @click @element",
   "time" : {
-    "start" : 1592576530760,
-    "stop" : 1592576537906,
-    "duration" : 7146
+    "start" : 1593696015113,
+    "stop" : 1593696016300,
+    "duration" : 1187
   },
   "status" : "failed",
   "severity" : "normal"

@@ -10,7 +10,7 @@ exports.config = {
   helpers: {
     Puppeteer: {
       url: 'http://google.com',
-      show: true,
+      show: false,
       windowSize: '1200x900'
     },
     ResembleHelper : {

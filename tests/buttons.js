@@ -3,7 +3,7 @@ const locators = require('../utils/locator.js');
 const globalSelector =  "//div[@id='buttons']//button";
 const elemTemplateSelector = "(//div[@id='buttons']//button)[%data%]";
 const numOfElements = 5;
-const compareFlag = false;
+const compareFlag = true;
 
 String.prototype.getCurrent = function(next) {
     return this.replace('%data%',next);
@@ -13,7 +13,7 @@ String.prototype.toFileName = function() {
     return this.split(" ").join("_");
 }
  
-Feature('design_system_page');
+Feature('Design System Tests Demo');
 
 Scenario('Verify each button without any action', async (I) => {
     let filePrefix = locators.prefix.plain;
@@ -48,8 +48,7 @@ Scenario('Verify each button on mouse over', async (I) => {
         if (compareFlag) { 
             I.seeVisualDiff(screenshotName+".png", {prepareBaseImage: false, tolerance: 0}); 
         }
-
-    }
+        }
 }).tag('buttons').tag('action').tag('hover').tag('element');
 
 Scenario('Verify each button on click', async (I) => {
@@ -95,7 +94,17 @@ Scenario('Verify top and bottom part of the page', async (I) => {
             I.seeVisualDiff(screenshotNameTop, {prepareBaseImage: false, tolerance: 0}); 
             I.seeVisualDiff(screenshotNameBottom, {prepareBaseImage: false, tolerance: 0}); 
         }
-}).tag('buttons').tag('simple').tag('pagetest');
+}).tag('buttons').tag('simple').tag('pagetest').tag('page');
+
+Scenario('Verify whole page', async (I) => {
+    let screenshotName = "WholePage.png";
+        I.saveScreenshot(screenshotName,true);
+
+    // Comparing both previously taken screenshots
+        if (compareFlag) { 
+            I.seeVisualDiff(screenshotName, {prepareBaseImage: false, tolerance: 0}); 
+        }
+}).tag('buttons').tag('simple').tag('wholepage').tag('page');
 
 Before((I) => {                     
      I.amOnPage(demo_page_url);

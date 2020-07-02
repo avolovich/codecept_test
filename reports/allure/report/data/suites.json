@@ -2,73 +2,86 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "design_system_page:",
+    "name" : "Design System Tests Demo:",
     "children" : [ {
       "name" : "Verify each button without any action @buttons @plain @element",
-      "uid" : "cf2e1b0a85068ecf",
-      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "uid" : "131c703ebcf155d1",
+      "parentUid" : "d5ef5b876e713132ac1ebac3cfe2d091",
       "status" : "failed",
       "time" : {
-        "start" : 1592576507420,
-        "stop" : 1592576513225,
-        "duration" : 5805
+        "start" : 1593696012474,
+        "stop" : 1593696013554,
+        "duration" : 1080
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify each button on mouse over @buttons @action @hover @element",
-      "uid" : "3871b8e3ac42fadf",
-      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "uid" : "c8c225fce028ee4e",
+      "parentUid" : "d5ef5b876e713132ac1ebac3cfe2d091",
       "status" : "failed",
       "time" : {
-        "start" : 1592576513730,
-        "stop" : 1592576519606,
-        "duration" : 5876
+        "start" : 1593696013772,
+        "stop" : 1593696014953,
+        "duration" : 1181
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify each button on click @buttons @action @click @element",
-      "uid" : "2654a3642793380b",
-      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "uid" : "961c063d0c444e45",
+      "parentUid" : "d5ef5b876e713132ac1ebac3cfe2d091",
       "status" : "failed",
       "time" : {
-        "start" : 1592576520173,
-        "stop" : 1592576526024,
-        "duration" : 5851
+        "start" : 1593696015113,
+        "stop" : 1593696016300,
+        "duration" : 1187
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify block of buttons @buttons @simple @block",
-      "uid" : "93fe2d40790db268",
-      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "uid" : "c9b4ea41f087d709",
+      "parentUid" : "d5ef5b876e713132ac1ebac3cfe2d091",
       "status" : "passed",
       "time" : {
-        "start" : 1592576528020,
-        "stop" : 1592576529122,
-        "duration" : 1102
+        "start" : 1593696016463,
+        "stop" : 1593696017543,
+        "duration" : 1080
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Verify top and bottom part of the page @buttons @simple @pagetest",
-      "uid" : "580e116ac6a89720",
-      "parentUid" : "d8a95d1b67edb09e2226e3792172c587",
+      "name" : "Verify top and bottom part of the page @buttons @simple @pagetest @page",
+      "uid" : "8bea4bd51d560ade",
+      "parentUid" : "d5ef5b876e713132ac1ebac3cfe2d091",
       "status" : "failed",
       "time" : {
-        "start" : 1592576530760,
-        "stop" : 1592576537906,
-        "duration" : 7146
+        "start" : 1593696017707,
+        "stop" : 1593696019380,
+        "duration" : 1673
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify whole page @buttons @simple @wholepage @page",
+      "uid" : "17b1891bfaf9c557",
+      "parentUid" : "d5ef5b876e713132ac1ebac3cfe2d091",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593696019536,
+        "stop" : 1593696020962,
+        "duration" : 1426
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "d8a95d1b67edb09e2226e3792172c587"
+    "uid" : "d5ef5b876e713132ac1ebac3cfe2d091"
   } ]
 }
